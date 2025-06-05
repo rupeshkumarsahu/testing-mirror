@@ -1,0 +1,9 @@
+name: 'Say Hello'
+description: 'Print a greeting message'
+inputs:
+  name:
+    description: 'Who to greet'
+    required: true
+runs:
+  using: 'node16'
+  main: 'dist/index.js'

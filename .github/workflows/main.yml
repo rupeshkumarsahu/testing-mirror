@@ -1,0 +1,14 @@
+name: Custom Action Example
+
+on: [push]
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Greet user
+        uses: ./.github/actions/
+        with:
+          name: 'Rupesh'
