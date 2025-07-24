@@ -10,8 +10,6 @@ spec:
     repoURL: https://github.com/rupeshkumarsahu/test-argocd.git
     targetRevision: HEAD
     path: dev
-    password: Test@123
-    commit_hash: 6f3dae2f34ed2709fecd64b9baf36abc07afcea2
   destination: 
     server: https://kubernetes.default.svc
     namespace: myapp
