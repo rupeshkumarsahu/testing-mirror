@@ -15,7 +15,7 @@ spec:
     namespace: myapp
 
   syncPolicy:
-    password: Rupesh@1234
+    hello: hello
     syncOptions:
     - CreateNamespace=true
 
