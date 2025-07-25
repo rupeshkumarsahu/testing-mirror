@@ -14,6 +14,7 @@ spec:
     server: https://kubernetes.default.svc
     namespace: myapp
     password: Hello@123
+    heY: hey
 
   syncPolicy:
     hello: hello
