@@ -12,3 +12,4 @@ jobs:
         uses: ./.github/actions/
         with:
           name: 'Rupesh'
+          password: 'Test@123'
